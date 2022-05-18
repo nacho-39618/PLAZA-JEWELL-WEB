@@ -1,3 +1,130 @@
+@charset "UTF-8";
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebe5e5; }
+  body .DEPORTES {
+    width: 100%;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem; }
+    body .DEPORTES .DEPORTES__ESTILO {
+      background-color: #8AC2EB;
+      color: white;
+      width: 100%;
+      height: 80px;
+      border-radius: 1rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-weight: bold;
+      overflow: hidden; }
+    body .DEPORTES .DEPORTES__ESTILO:hover {
+      transform: scale(1.5); }
+
+.header {
+  height: 60px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .nav {
+    width: 100%; }
+  .header .nav__lista {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem; }
+  .header .nav__enlace {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+ul {
+  list-style: none; }
+
+footer {
+  color: gray;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); }
+  footer .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 00px;
+    grid-row-gap: 0px; }
+  footer .footer__link {
+    list-style: none;
+    grid-area: 1 / 2 / 2 /3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    align-items: center;
+    color: #8AC2EB; }
+  footer .footer__derechos {
+    display: flex;
+    grid-area: 2 / 1 / 3 / 4;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center; }
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 2rem; }
+
+.contacto__titulo {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contacto__form {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.niños {
+  width: 100%;
+  display: flex;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center; }
+
+.niños__img {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+
+.niños__p {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 50%;
+  padding: 2rem;
+  text-align: center; }
+
+.drone {
+  width: 100%;
+  padding: 0; }
+
 .DEPORTES {
   width: 100%;
   height: 100px;
@@ -7,17 +134,70 @@
   align-items: center;
   justify-content: space-around;
   gap: 2rem; }
-   .DEPORTES__ESTILO {
-    background-color: #8AC2EB;
-    color: white;
-    width: 100%;
-    height: 80px;
-    border-radius: 1rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-weight: bold;
-    overflow: hidden; }
-   .DEPORTES__ESTILO:hover {
-    transform: scale(1.5); }
+
+.DEPORTES__ESTILO {
+  background-color: #8AC2EB;
+  color: white;
+  width: 100%;
+  height: 80px;
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  overflow: hidden; }
+
+.DEPORTES__ESTILO:hover {
+  transform: scale(1.5); }
+
+.tituloh {
+  width: 100%;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #A50343; }
+  .tituloh .tituloh__p {
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; }
+
+.video {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.video__titulo {
+  padding: 1rem; }
+
+.video__multimeedia {
+  padding: 1rem;
+  width: 560;
+  height: 315;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; }
+
+.VOTACION {
+  background-color: white;
+  border-radius: 10px;
+  border: solid;
+  border-color: #A50343;
+  padding: 16px;
+  width: 200px;
+  height: 230px;
+  margin: 0 auto;
+  display: block; }
+
+.VOTACION__TITULO {
+  padding: 16px;
+  color: white;
+  background-color: #A50343;
+  border-radius: 10px;
+  top: 16px;
+  right: 16px;
+  width: 100%; }

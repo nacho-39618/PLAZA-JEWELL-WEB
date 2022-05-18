@@ -1,7 +1,7 @@
 {
-  "name": "plaza-web",
+  "name": "plaza-jewell-web",
   "version": "1.0.0",
-  "description": "Web Plaza demo coderhouse",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nacho-39618/plaza-web.git"
+    "url": "git+https://github.com/nacho-39618/PLAZA-JEWELL-WEB.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nacho-39618/plaza-web/issues"
+    "url": "https://github.com/nacho-39618/PLAZA-JEWELL-WEB/issues"
   },
-  "homepage": "https://github.com/nacho-39618/plaza-web#readme",
+  "homepage": "https://github.com/nacho-39618/PLAZA-JEWELL-WEB#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0"
+  },
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
